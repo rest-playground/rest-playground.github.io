@@ -1,24 +1,11 @@
+/*! https://mths.be/utf8js v2.1.2 by @mathias */
+
+
 /**!
  * Sortable 1.10.2
  * @author	RubaXa   <trash@rubaxa.org>
  * @author	owenm    <owen23355@gmail.com>
  * @license MIT
- */
-
-
-/**
- * @fileoverview Main entrypoint for libraries using yargs-parser in Node.js
- * CJS and ESM environments.
- *
- * @license
- * Copyright (c) 2016, Contributors
- * SPDX-License-Identifier: ISC
- */
-
-/**
- * @license
- * Copyright (c) 2016, Contributors
- * SPDX-License-Identifier: ISC
  */
 
 
@@ -30,17 +17,6 @@
  */
 
 /*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
-
-
-/*! https://mths.be/utf8js v2.1.2 by @mathias */
-
-
-/**!
- * Sortable 1.10.2
- * @author	RubaXa   <trash@rubaxa.org>
- * @author	owenm    <owen23355@gmail.com>
- * @license MIT
- */
 
 
 /*
@@ -99,75 +75,9 @@ object-assign
 
 /*! http://mths.be/fromcodepoint v0.1.0 by @mathias */
 
-/*! js-yaml 4.1.0 https://github.com/nodeca/js-yaml @license MIT */
-
-/**
- * Tests whether or not an object is similar to an array.
- *
- * @func isArrayLike
- * @memberOf RA
- * @since {@link https://char0n.github.io/ramda-adjunct/1.9.0|v1.9.0}
- * @licence https://github.com/ramda/ramda/blob/master/LICENSE.txt
- * @category List
- * @category Type
- * @sig * -> Boolean
- * @param {*} val The value to test
- * @returns {boolean} `true` if `val` has a numeric length property and extreme indices defined; `false` otherwise.
- * @see {@link RA.isNotArrayLike|isNotArrayLike}
-
- * @example
- *
- * RA.isArrayLike([]); //=> true
- * RA.isArrayLike(true); //=> false
- * RA.isArrayLike({}); //=> false
- * RA.isArrayLike({length: 10}); //=> false
- * RA.isArrayLike({0: 'zero', 9: 'nine', length: 10}); //=> true
- */
-
-/**!
- * @license http://www.apache.org/licenses/LICENSE-2.0
- *
- * Copyright 2015 Postdot Technologies Pvt. Ltd.
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *    http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on
- * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and limitations under the License.
- */
-
-/**!
- * Originally written by:
- * https://github.com/sindresorhus/parse-json
- */
-
 /*! https://mths.be/punycode v1.4.1 by @mathias */
 
-/*! safe-buffer. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
-
-/*!
-  * vue-router v3.5.3
-  * (c) 2021 Evan You
-  * @license MIT
-  */
-
-/*!
- * Vue.js v2.6.14
- * (c) 2014-2021 Evan You
- * Released under the MIT License.
- */
-
-/*!
- * cookie
- * Copyright(c) 2012-2014 Roman Shtylman
- * Copyright(c) 2015 Douglas Christopher Wilson
- * MIT Licensed
- */
-
+/*! js-yaml 4.1.0 https://github.com/nodeca/js-yaml @license MIT */
 
 /*! safe-buffer. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
 
@@ -175,6 +85,12 @@ object-assign
  * @fileoverview Main entrypoint for libraries using yargs-parser in Node.js
  * CJS and ESM environments.
  *
+ * @license
+ * Copyright (c) 2016, Contributors
+ * SPDX-License-Identifier: ISC
+ */
+
+/**
  * @license
  * Copyright (c) 2016, Contributors
  * SPDX-License-Identifier: ISC
@@ -208,16 +124,104 @@ object-assign
  * Extracted from https://github.com/node-fetch/node-fetch/blob/64c5c296a0250b852010746c76144cb9e14698d9/src/utils/form-data.js
  */
 
+/**
+ * Tests whether or not an object is similar to an array.
+ *
+ * @func isArrayLike
+ * @memberOf RA
+ * @since {@link https://char0n.github.io/ramda-adjunct/1.9.0|v1.9.0}
+ * @licence https://github.com/ramda/ramda/blob/master/LICENSE.txt
+ * @category List
+ * @category Type
+ * @sig * -> Boolean
+ * @param {*} val The value to test
+ * @returns {boolean} `true` if `val` has a numeric length property and extreme indices defined; `false` otherwise.
+ * @see {@link RA.isNotArrayLike|isNotArrayLike}
+
+ * @example
+ *
+ * RA.isArrayLike([]); //=> true
+ * RA.isArrayLike(true); //=> false
+ * RA.isArrayLike({}); //=> false
+ * RA.isArrayLike({length: 10}); //=> false
+ * RA.isArrayLike({0: 'zero', 9: 'nine', length: 10}); //=> true
+ */
+
 /** @license URI.js v4.4.1 (c) 2011 Gary Court. License: http://github.com/garycourt/uri-js */
 
+/**!
+ * @license http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Copyright 2015 Postdot Technologies Pvt. Ltd.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *    http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on
+ * an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and limitations under the License.
+ */
 
-/** @license URI.js v4.4.1 (c) 2011 Gary Court. License: http://github.com/garycourt/uri-js */
+/**!
+ * Originally written by:
+ * https://github.com/sindresorhus/parse-json
+ */
+
+
+/*! safe-buffer. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
+
+/**!
+ * Sortable 1.10.2
+ * @author	RubaXa   <trash@rubaxa.org>
+ * @author	owenm    <owen23355@gmail.com>
+ * @license MIT
+ */
 
 
 /*!
    * mustache.js - Logic-less {{mustache}} templates with JavaScript
    * http://github.com/janl/mustache.js
    */
+
+
+/** @license URI.js v4.4.1 (c) 2011 Gary Court. License: http://github.com/garycourt/uri-js */
+
+
+/*!
+  * vue-router v3.5.3
+  * (c) 2021 Evan You
+  * @license MIT
+  */
+
+/*!
+ * Vue.js v2.6.14
+ * (c) 2014-2021 Evan You
+ * Released under the MIT License.
+ */
+
+/*!
+ * cookie
+ * Copyright(c) 2012-2014 Roman Shtylman
+ * Copyright(c) 2015 Douglas Christopher Wilson
+ * MIT Licensed
+ */
+
+
+/*!
+ * github-buttons v2.19.1
+ * (c) 2021 なつき
+ * @license BSD-2-Clause
+ */
+
+
+/**
+ * @license
+ * Copyright (c) 2016, Contributors
+ * SPDX-License-Identifier: ISC
+ */
 
 
 /*!
@@ -404,30 +408,4 @@ PERFORMANCE OF THIS SOFTWARE.
  * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
- */
-
-
-/*!
- * github-buttons v2.19.1
- * (c) 2021 なつき
- * @license BSD-2-Clause
- */
-
-/**!
- * Originally written by:
- * https://github.com/sindresorhus/parse-json
- */
-
-
-/*
-object-assign
-(c) Sindre Sorhus
-@license MIT
-*/
-
-/**!
- * Sortable 1.10.2
- * @author	RubaXa   <trash@rubaxa.org>
- * @author	owenm    <owen23355@gmail.com>
- * @license MIT
  */
